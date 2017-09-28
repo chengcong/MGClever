@@ -20,15 +20,7 @@ namespace MGClever
         {
             get { return spriteBatch; }
         }
-        SpriteFont defaultFont;
-        /// <summary>
-        /// 默认字体
-        /// </summary>
-        public SpriteFont DefaultFont
-        {
-            get { return defaultFont; }
-           
-        }
+       
         public ScreenManager(Game game) : base(game)
         {
         }
@@ -71,7 +63,7 @@ namespace MGClever
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(base.GraphicsDevice);
-            defaultFont=base.Game.Content.Load<SpriteFont>("DefaultFont");
+           
 
             foreach (GameScreen screen in screens)
             {
