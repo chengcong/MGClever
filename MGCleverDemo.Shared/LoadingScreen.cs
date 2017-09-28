@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 
-namespace MGCleverDemo.UWP
+namespace MGCleverDemo
 {
     public class LoadingScreen:MGClever.GameScreen
     {

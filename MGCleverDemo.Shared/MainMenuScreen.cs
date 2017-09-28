@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MGCleverDemo.UWP
+namespace MGCleverDemo
 {
     public class MainMenuScreen:MGClever.GameScreen
     {
