@@ -1,0 +1,2 @@
+H:\MonoGameLibs\MGClever\MGClever\MGClever.UWP\MGClever.UWP.csproj;x86
+H:\MonoGameLibs\MGClever\MGClever\MGCleverDemo.UWP\MGCleverDemo.UWP.csproj;x86
