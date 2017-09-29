@@ -18,6 +18,8 @@ namespace MGCleverDemo
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            //设置游戏屏幕方向
+            this.graphics.SupportedOrientations = DisplayOrientation.Portrait;
             //显示鼠标
             IsMouseVisible = true;
             //鼠标和触摸统一适配
